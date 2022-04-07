@@ -1,0 +1,11 @@
+{% block body %}
+
+    {% if result.error %}
+        <h2>Damn that error: {{ result.error.message }}</h2>
+    {% endif %}
+
+    {% if result.user %}
+        <h1>Hi {{ result.user.name }}</h1>
+    {% endif %}
+
+{% endblock body %}
