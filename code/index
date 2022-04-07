@@ -1,0 +1,8 @@
+
+{% block body %}
+
+    <!--Links to the login handler-->
+    Login with <a href="login/google">Google</a>.<br />
+    <h2>Welcome To Our Website<h2>
+
+{% endblock %}
